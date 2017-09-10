@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D4F84A21F2F83B2000911DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4F84A11F2F83B2000911DB /* main.m */; };
+		0D4F84A51F2F83B3000911DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4F84A41F2F83B3000911DB /* AppDelegate.m */; };
+		0D4F84A81F2F83B3000911DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4F84A71F2F83B3000911DB /* ViewController.m */; };
+		0D4F84AB1F2F83B3000911DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D4F84A91F2F83B3000911DB /* Main.storyboard */; };
+		0D4F84AD1F2F83B3000911DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D4F84AC1F2F83B3000911DB /* Assets.xcassets */; };
+		0D4F84B01F2F83B3000911DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D4F84AE1F2F83B3000911DB /* LaunchScreen.storyboard */; };
+		0D4F84BB1F2F83B3000911DB /* IDC_37_38_MapKit_homeworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4F84BA1F2F83B3000911DB /* IDC_37_38_MapKit_homeworkTests.m */; };
+		0D4F84C61F2F83B3000911DB /* IDC_37_38_MapKit_homeworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4F84C51F2F83B3000911DB /* IDC_37_38_MapKit_homeworkUITests.m */; };
+		0D4F84D51F2FAC57000911DB /* PMStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4F84D41F2FAC57000911DB /* PMStudent.m */; };
+		0D4F84D81F2FD908000911DB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D4F84D71F2FD908000911DB /* MapKit.framework */; };
+		0D4F84EB1F2FF13F000911DB /* PMStudentDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4F84EA1F2FF13F000911DB /* PMStudentDescription.m */; };
+		0D4F84EE1F2FF361000911DB /* UIView+MKAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4F84ED1F2FF361000911DB /* UIView+MKAnnotationView.m */; };
+		0D4F84F31F3209C1000911DB /* PMMeetingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4F84F21F3209C1000911DB /* PMMeetingViewController.m */; };
+		0D4F84F61F3209E4000911DB /* PMMeetingViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4F84F51F3209E4000911DB /* PMMeetingViewCell.m */; };
+		0D4F84F91F320A03000911DB /* PMMeetingPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4F84F81F320A03000911DB /* PMMeetingPoint.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D4F84B71F2F83B3000911DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D4F84951F2F83B2000911DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D4F849C1F2F83B2000911DB;
+			remoteInfo = "IDC 37-38 MapKit homework";
+		};
+		0D4F84C21F2F83B3000911DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D4F84951F2F83B2000911DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D4F849C1F2F83B2000911DB;
+			remoteInfo = "IDC 37-38 MapKit homework";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D4F849D1F2F83B2000911DB /* IDC 37-38 MapKit homework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IDC 37-38 MapKit homework.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D4F84A11F2F83B2000911DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D4F84A31F2F83B2000911DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0D4F84A41F2F83B3000911DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0D4F84A61F2F83B3000911DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0D4F84A71F2F83B3000911DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0D4F84AA1F2F83B3000911DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D4F84AC1F2F83B3000911DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D4F84AF1F2F83B3000911DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D4F84B11F2F83B3000911DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D4F84B61F2F83B3000911DB /* IDC 37-38 MapKit homeworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IDC 37-38 MapKit homeworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D4F84BA1F2F83B3000911DB /* IDC_37_38_MapKit_homeworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDC_37_38_MapKit_homeworkTests.m; sourceTree = "<group>"; };
+		0D4F84BC1F2F83B3000911DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D4F84C11F2F83B3000911DB /* IDC 37-38 MapKit homeworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IDC 37-38 MapKit homeworkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D4F84C51F2F83B3000911DB /* IDC_37_38_MapKit_homeworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDC_37_38_MapKit_homeworkUITests.m; sourceTree = "<group>"; };
+		0D4F84C71F2F83B3000911DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D4F84D31F2FAC57000911DB /* PMStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMStudent.h; sourceTree = "<group>"; };
+		0D4F84D41F2FAC57000911DB /* PMStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMStudent.m; sourceTree = "<group>"; };
+		0D4F84D71F2FD908000911DB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0D4F84E91F2FF13F000911DB /* PMStudentDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMStudentDescription.h; sourceTree = "<group>"; };
+		0D4F84EA1F2FF13F000911DB /* PMStudentDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMStudentDescription.m; sourceTree = "<group>"; };
+		0D4F84EC1F2FF361000911DB /* UIView+MKAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MKAnnotationView.h"; sourceTree = "<group>"; };
+		0D4F84ED1F2FF361000911DB /* UIView+MKAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MKAnnotationView.m"; sourceTree = "<group>"; };
+		0D4F84F11F3209C1000911DB /* PMMeetingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMMeetingViewController.h; sourceTree = "<group>"; };
+		0D4F84F21F3209C1000911DB /* PMMeetingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMMeetingViewController.m; sourceTree = "<group>"; };
+		0D4F84F41F3209E4000911DB /* PMMeetingViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMMeetingViewCell.h; sourceTree = "<group>"; };
+		0D4F84F51F3209E4000911DB /* PMMeetingViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMMeetingViewCell.m; sourceTree = "<group>"; };
+		0D4F84F71F320A03000911DB /* PMMeetingPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMMeetingPoint.h; sourceTree = "<group>"; };
+		0D4F84F81F320A03000911DB /* PMMeetingPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMMeetingPoint.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D4F849A1F2F83B2000911DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D4F84D81F2FD908000911DB /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D4F84B31F2F83B3000911DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D4F84BE1F2F83B3000911DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D4F84941F2F83B2000911DB = {
+			isa = PBXGroup;
+			children = (
+				0D4F849F1F2F83B2000911DB /* IDC 37-38 MapKit homework */,
+				0D4F84B91F2F83B3000911DB /* IDC 37-38 MapKit homeworkTests */,
+				0D4F84C41F2F83B3000911DB /* IDC 37-38 MapKit homeworkUITests */,
+				0D4F849E1F2F83B2000911DB /* Products */,
+				0D4F84D61F2FD908000911DB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0D4F849E1F2F83B2000911DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D4F849D1F2F83B2000911DB /* IDC 37-38 MapKit homework.app */,
+				0D4F84B61F2F83B3000911DB /* IDC 37-38 MapKit homeworkTests.xctest */,
+				0D4F84C11F2F83B3000911DB /* IDC 37-38 MapKit homeworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D4F849F1F2F83B2000911DB /* IDC 37-38 MapKit homework */ = {
+			isa = PBXGroup;
+			children = (
+				0D4F84A31F2F83B2000911DB /* AppDelegate.h */,
+				0D4F84A41F2F83B3000911DB /* AppDelegate.m */,
+				0D4F84A61F2F83B3000911DB /* ViewController.h */,
+				0D4F84A71F2F83B3000911DB /* ViewController.m */,
+				0D4F84D31F2FAC57000911DB /* PMStudent.h */,
+				0D4F84D41F2FAC57000911DB /* PMStudent.m */,
+				0D4F84E91F2FF13F000911DB /* PMStudentDescription.h */,
+				0D4F84F11F3209C1000911DB /* PMMeetingViewController.h */,
+				0D4F84F21F3209C1000911DB /* PMMeetingViewController.m */,
+				0D4F84F41F3209E4000911DB /* PMMeetingViewCell.h */,
+				0D4F84F51F3209E4000911DB /* PMMeetingViewCell.m */,
+				0D4F84F71F320A03000911DB /* PMMeetingPoint.h */,
+				0D4F84F81F320A03000911DB /* PMMeetingPoint.m */,
+				0D4F84EA1F2FF13F000911DB /* PMStudentDescription.m */,
+				0D4F84EC1F2FF361000911DB /* UIView+MKAnnotationView.h */,
+				0D4F84ED1F2FF361000911DB /* UIView+MKAnnotationView.m */,
+				0D4F84A91F2F83B3000911DB /* Main.storyboard */,
+				0D4F84AC1F2F83B3000911DB /* Assets.xcassets */,
+				0D4F84AE1F2F83B3000911DB /* LaunchScreen.storyboard */,
+				0D4F84B11F2F83B3000911DB /* Info.plist */,
+				0D4F84A01F2F83B2000911DB /* Supporting Files */,
+			);
+			path = "IDC 37-38 MapKit homework";
+			sourceTree = "<group>";
+		};
+		0D4F84A01F2F83B2000911DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D4F84A11F2F83B2000911DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0D4F84B91F2F83B3000911DB /* IDC 37-38 MapKit homeworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D4F84BA1F2F83B3000911DB /* IDC_37_38_MapKit_homeworkTests.m */,
+				0D4F84BC1F2F83B3000911DB /* Info.plist */,
+			);
+			path = "IDC 37-38 MapKit homeworkTests";
+			sourceTree = "<group>";
+		};
+		0D4F84C41F2F83B3000911DB /* IDC 37-38 MapKit homeworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0D4F84C51F2F83B3000911DB /* IDC_37_38_MapKit_homeworkUITests.m */,
+				0D4F84C71F2F83B3000911DB /* Info.plist */,
+			);
+			path = "IDC 37-38 MapKit homeworkUITests";
+			sourceTree = "<group>";
+		};
+		0D4F84D61F2FD908000911DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D4F84D71F2FD908000911DB /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D4F849C1F2F83B2000911DB /* IDC 37-38 MapKit homework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D4F84CA1F2F83B3000911DB /* Build configuration list for PBXNativeTarget "IDC 37-38 MapKit homework" */;
+			buildPhases = (
+				0D4F84991F2F83B2000911DB /* Sources */,
+				0D4F849A1F2F83B2000911DB /* Frameworks */,
+				0D4F849B1F2F83B2000911DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IDC 37-38 MapKit homework";
+			productName = "IDC 37-38 MapKit homework";
+			productReference = 0D4F849D1F2F83B2000911DB /* IDC 37-38 MapKit homework.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D4F84B51F2F83B3000911DB /* IDC 37-38 MapKit homeworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D4F84CD1F2F83B3000911DB /* Build configuration list for PBXNativeTarget "IDC 37-38 MapKit homeworkTests" */;
+			buildPhases = (
+				0D4F84B21F2F83B3000911DB /* Sources */,
+				0D4F84B31F2F83B3000911DB /* Frameworks */,
+				0D4F84B41F2F83B3000911DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D4F84B81F2F83B3000911DB /* PBXTargetDependency */,
+			);
+			name = "IDC 37-38 MapKit homeworkTests";
+			productName = "IDC 37-38 MapKit homeworkTests";
+			productReference = 0D4F84B61F2F83B3000911DB /* IDC 37-38 MapKit homeworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0D4F84C01F2F83B3000911DB /* IDC 37-38 MapKit homeworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D4F84D01F2F83B3000911DB /* Build configuration list for PBXNativeTarget "IDC 37-38 MapKit homeworkUITests" */;
+			buildPhases = (
+				0D4F84BD1F2F83B3000911DB /* Sources */,
+				0D4F84BE1F2F83B3000911DB /* Frameworks */,
+				0D4F84BF1F2F83B3000911DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D4F84C31F2F83B3000911DB /* PBXTargetDependency */,
+			);
+			name = "IDC 37-38 MapKit homeworkUITests";
+			productName = "IDC 37-38 MapKit homeworkUITests";
+			productReference = 0D4F84C11F2F83B3000911DB /* IDC 37-38 MapKit homeworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D4F84951F2F83B2000911DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Петр Первухин";
+				TargetAttributes = {
+					0D4F849C1F2F83B2000911DB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					0D4F84B51F2F83B3000911DB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0D4F849C1F2F83B2000911DB;
+					};
+					0D4F84C01F2F83B3000911DB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0D4F849C1F2F83B2000911DB;
+					};
+				};
+			};
+			buildConfigurationList = 0D4F84981F2F83B2000911DB /* Build configuration list for PBXProject "IDC 37-38 MapKit homework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D4F84941F2F83B2000911DB;
+			productRefGroup = 0D4F849E1F2F83B2000911DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D4F849C1F2F83B2000911DB /* IDC 37-38 MapKit homework */,
+				0D4F84B51F2F83B3000911DB /* IDC 37-38 MapKit homeworkTests */,
+				0D4F84C01F2F83B3000911DB /* IDC 37-38 MapKit homeworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D4F849B1F2F83B2000911DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D4F84B01F2F83B3000911DB /* LaunchScreen.storyboard in Resources */,
+				0D4F84AD1F2F83B3000911DB /* Assets.xcassets in Resources */,
+				0D4F84AB1F2F83B3000911DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D4F84B41F2F83B3000911DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D4F84BF1F2F83B3000911DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D4F84991F2F83B2000911DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D4F84A81F2F83B3000911DB /* ViewController.m in Sources */,
+				0D4F84F91F320A03000911DB /* PMMeetingPoint.m in Sources */,
+				0D4F84A51F2F83B3000911DB /* AppDelegate.m in Sources */,
+				0D4F84EE1F2FF361000911DB /* UIView+MKAnnotationView.m in Sources */,
+				0D4F84D51F2FAC57000911DB /* PMStudent.m in Sources */,
+				0D4F84A21F2F83B2000911DB /* main.m in Sources */,
+				0D4F84EB1F2FF13F000911DB /* PMStudentDescription.m in Sources */,
+				0D4F84F31F3209C1000911DB /* PMMeetingViewController.m in Sources */,
+				0D4F84F61F3209E4000911DB /* PMMeetingViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D4F84B21F2F83B3000911DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D4F84BB1F2F83B3000911DB /* IDC_37_38_MapKit_homeworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D4F84BD1F2F83B3000911DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D4F84C61F2F83B3000911DB /* IDC_37_38_MapKit_homeworkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D4F84B81F2F83B3000911DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D4F849C1F2F83B2000911DB /* IDC 37-38 MapKit homework */;
+			targetProxy = 0D4F84B71F2F83B3000911DB /* PBXContainerItemProxy */;
+		};
+		0D4F84C31F2F83B3000911DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D4F849C1F2F83B2000911DB /* IDC 37-38 MapKit homework */;
+			targetProxy = 0D4F84C21F2F83B3000911DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0D4F84A91F2F83B3000911DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D4F84AA1F2F83B3000911DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D4F84AE1F2F83B3000911DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D4F84AF1F2F83B3000911DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D4F84C81F2F83B3000911DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D4F84C91F2F83B3000911DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D4F84CB1F2F83B3000911DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "IDC 37-38 MapKit homework/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "manki.IDC-37-38-MapKit-homework";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0D4F84CC1F2F83B3000911DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "IDC 37-38 MapKit homework/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "manki.IDC-37-38-MapKit-homework";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0D4F84CE1F2F83B3000911DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "IDC 37-38 MapKit homeworkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "manki.IDC-37-38-MapKit-homeworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IDC 37-38 MapKit homework.app/IDC 37-38 MapKit homework";
+			};
+			name = Debug;
+		};
+		0D4F84CF1F2F83B3000911DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "IDC 37-38 MapKit homeworkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "manki.IDC-37-38-MapKit-homeworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IDC 37-38 MapKit homework.app/IDC 37-38 MapKit homework";
+			};
+			name = Release;
+		};
+		0D4F84D11F2F83B3000911DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "IDC 37-38 MapKit homeworkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "manki.IDC-37-38-MapKit-homeworkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "IDC 37-38 MapKit homework";
+			};
+			name = Debug;
+		};
+		0D4F84D21F2F83B3000911DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "IDC 37-38 MapKit homeworkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "manki.IDC-37-38-MapKit-homeworkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "IDC 37-38 MapKit homework";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D4F84981F2F83B2000911DB /* Build configuration list for PBXProject "IDC 37-38 MapKit homework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D4F84C81F2F83B3000911DB /* Debug */,
+				0D4F84C91F2F83B3000911DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D4F84CA1F2F83B3000911DB /* Build configuration list for PBXNativeTarget "IDC 37-38 MapKit homework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D4F84CB1F2F83B3000911DB /* Debug */,
+				0D4F84CC1F2F83B3000911DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D4F84CD1F2F83B3000911DB /* Build configuration list for PBXNativeTarget "IDC 37-38 MapKit homeworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D4F84CE1F2F83B3000911DB /* Debug */,
+				0D4F84CF1F2F83B3000911DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D4F84D01F2F83B3000911DB /* Build configuration list for PBXNativeTarget "IDC 37-38 MapKit homeworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D4F84D11F2F83B3000911DB /* Debug */,
+				0D4F84D21F2F83B3000911DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D4F84951F2F83B2000911DB /* Project object */;
+}

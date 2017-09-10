@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D0717C81F058B0A00AB78B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0717C71F058B0A00AB78B4 /* main.m */; };
+		0D0717CB1F058B0A00AB78B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0717CA1F058B0A00AB78B4 /* AppDelegate.m */; };
+		0D0717D11F058B0A00AB78B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D0717CF1F058B0A00AB78B4 /* Main.storyboard */; };
+		0D0717D31F058B0A00AB78B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D0717D21F058B0A00AB78B4 /* Assets.xcassets */; };
+		0D0717D61F058B0A00AB78B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D0717D41F058B0A00AB78B4 /* LaunchScreen.storyboard */; };
+		0D0717E11F058B0A00AB78B4 /* IDC29_UITableView_Static_Cells_homeworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0717E01F058B0A00AB78B4 /* IDC29_UITableView_Static_Cells_homeworkTests.m */; };
+		0D0717EC1F058B0A00AB78B4 /* IDC29_UITableView_Static_Cells_homeworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0717EB1F058B0A00AB78B4 /* IDC29_UITableView_Static_Cells_homeworkUITests.m */; };
+		0D0717FB1F058B7600AB78B4 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0717FA1F058B7600AB78B4 /* TableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D0717DD1F058B0A00AB78B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D0717BB1F058B0A00AB78B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D0717C21F058B0A00AB78B4;
+			remoteInfo = "IDC29 UITableView Static Cells homework";
+		};
+		0D0717E81F058B0A00AB78B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D0717BB1F058B0A00AB78B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D0717C21F058B0A00AB78B4;
+			remoteInfo = "IDC29 UITableView Static Cells homework";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D0717C31F058B0A00AB78B4 /* IDC29 UITableView Static Cells homework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IDC29 UITableView Static Cells homework.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D0717C71F058B0A00AB78B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D0717C91F058B0A00AB78B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0D0717CA1F058B0A00AB78B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0D0717D01F058B0A00AB78B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D0717D21F058B0A00AB78B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D0717D51F058B0A00AB78B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D0717D71F058B0A00AB78B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D0717DC1F058B0A00AB78B4 /* IDC29 UITableView Static Cells homeworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IDC29 UITableView Static Cells homeworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D0717E01F058B0A00AB78B4 /* IDC29_UITableView_Static_Cells_homeworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDC29_UITableView_Static_Cells_homeworkTests.m; sourceTree = "<group>"; };
+		0D0717E21F058B0A00AB78B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D0717E71F058B0A00AB78B4 /* IDC29 UITableView Static Cells homeworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IDC29 UITableView Static Cells homeworkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D0717EB1F058B0A00AB78B4 /* IDC29_UITableView_Static_Cells_homeworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDC29_UITableView_Static_Cells_homeworkUITests.m; sourceTree = "<group>"; };
+		0D0717ED1F058B0A00AB78B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D0717F91F058B7600AB78B4 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = ../TableViewController.h; sourceTree = "<group>"; };
+		0D0717FA1F058B7600AB78B4 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = ../TableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D0717C01F058B0A00AB78B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D0717D91F058B0A00AB78B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D0717E41F058B0A00AB78B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D0717BA1F058B0A00AB78B4 = {
+			isa = PBXGroup;
+			children = (
+				0D0717C51F058B0A00AB78B4 /* IDC29 UITableView Static Cells homework */,
+				0D0717DF1F058B0A00AB78B4 /* IDC29 UITableView Static Cells homeworkTests */,
+				0D0717EA1F058B0A00AB78B4 /* IDC29 UITableView Static Cells homeworkUITests */,
+				0D0717C41F058B0A00AB78B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D0717C41F058B0A00AB78B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D0717C31F058B0A00AB78B4 /* IDC29 UITableView Static Cells homework.app */,
+				0D0717DC1F058B0A00AB78B4 /* IDC29 UITableView Static Cells homeworkTests.xctest */,
+				0D0717E71F058B0A00AB78B4 /* IDC29 UITableView Static Cells homeworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D0717C51F058B0A00AB78B4 /* IDC29 UITableView Static Cells homework */ = {
+			isa = PBXGroup;
+			children = (
+				0D0717C91F058B0A00AB78B4 /* AppDelegate.h */,
+				0D0717CA1F058B0A00AB78B4 /* AppDelegate.m */,
+				0D0717F91F058B7600AB78B4 /* TableViewController.h */,
+				0D0717FA1F058B7600AB78B4 /* TableViewController.m */,
+				0D0717CF1F058B0A00AB78B4 /* Main.storyboard */,
+				0D0717D21F058B0A00AB78B4 /* Assets.xcassets */,
+				0D0717D41F058B0A00AB78B4 /* LaunchScreen.storyboard */,
+				0D0717D71F058B0A00AB78B4 /* Info.plist */,
+				0D0717C61F058B0A00AB78B4 /* Supporting Files */,
+			);
+			path = "IDC29 UITableView Static Cells homework";
+			sourceTree = "<group>";
+		};
+		0D0717C61F058B0A00AB78B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D0717C71F058B0A00AB78B4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0D0717DF1F058B0A00AB78B4 /* IDC29 UITableView Static Cells homeworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D0717E01F058B0A00AB78B4 /* IDC29_UITableView_Static_Cells_homeworkTests.m */,
+				0D0717E21F058B0A00AB78B4 /* Info.plist */,
+			);
+			path = "IDC29 UITableView Static Cells homeworkTests";
+			sourceTree = "<group>";
+		};
+		0D0717EA1F058B0A00AB78B4 /* IDC29 UITableView Static Cells homeworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0D0717EB1F058B0A00AB78B4 /* IDC29_UITableView_Static_Cells_homeworkUITests.m */,
+				0D0717ED1F058B0A00AB78B4 /* Info.plist */,
+			);
+			path = "IDC29 UITableView Static Cells homeworkUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D0717C21F058B0A00AB78B4 /* IDC29 UITableView Static Cells homework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D0717F01F058B0A00AB78B4 /* Build configuration list for PBXNativeTarget "IDC29 UITableView Static Cells homework" */;
+			buildPhases = (
+				0D0717BF1F058B0A00AB78B4 /* Sources */,
+				0D0717C01F058B0A00AB78B4 /* Frameworks */,
+				0D0717C11F058B0A00AB78B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IDC29 UITableView Static Cells homework";
+			productName = "IDC29 UITableView Static Cells homework";
+			productReference = 0D0717C31F058B0A00AB78B4 /* IDC29 UITableView Static Cells homework.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D0717DB1F058B0A00AB78B4 /* IDC29 UITableView Static Cells homeworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D0717F31F058B0A00AB78B4 /* Build configuration list for PBXNativeTarget "IDC29 UITableView Static Cells homeworkTests" */;
+			buildPhases = (
+				0D0717D81F058B0A00AB78B4 /* Sources */,
+				0D0717D91F058B0A00AB78B4 /* Frameworks */,
+				0D0717DA1F058B0A00AB78B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D0717DE1F058B0A00AB78B4 /* PBXTargetDependency */,
+			);
+			name = "IDC29 UITableView Static Cells homeworkTests";
+			productName = "IDC29 UITableView Static Cells homeworkTests";
+			productReference = 0D0717DC1F058B0A00AB78B4 /* IDC29 UITableView Static Cells homeworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0D0717E61F058B0A00AB78B4 /* IDC29 UITableView Static Cells homeworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D0717F61F058B0A00AB78B4 /* Build configuration list for PBXNativeTarget "IDC29 UITableView Static Cells homeworkUITests" */;
+			buildPhases = (
+				0D0717E31F058B0A00AB78B4 /* Sources */,
+				0D0717E41F058B0A00AB78B4 /* Frameworks */,
+				0D0717E51F058B0A00AB78B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D0717E91F058B0A00AB78B4 /* PBXTargetDependency */,
+			);
+			name = "IDC29 UITableView Static Cells homeworkUITests";
+			productName = "IDC29 UITableView Static Cells homeworkUITests";
+			productReference = 0D0717E71F058B0A00AB78B4 /* IDC29 UITableView Static Cells homeworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D0717BB1F058B0A00AB78B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Петр Первухин";
+				TargetAttributes = {
+					0D0717C21F058B0A00AB78B4 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					0D0717DB1F058B0A00AB78B4 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0D0717C21F058B0A00AB78B4;
+					};
+					0D0717E61F058B0A00AB78B4 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0D0717C21F058B0A00AB78B4;
+					};
+				};
+			};
+			buildConfigurationList = 0D0717BE1F058B0A00AB78B4 /* Build configuration list for PBXProject "IDC29 UITableView Static Cells homework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D0717BA1F058B0A00AB78B4;
+			productRefGroup = 0D0717C41F058B0A00AB78B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D0717C21F058B0A00AB78B4 /* IDC29 UITableView Static Cells homework */,
+				0D0717DB1F058B0A00AB78B4 /* IDC29 UITableView Static Cells homeworkTests */,
+				0D0717E61F058B0A00AB78B4 /* IDC29 UITableView Static Cells homeworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D0717C11F058B0A00AB78B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D0717D61F058B0A00AB78B4 /* LaunchScreen.storyboard in Resources */,
+				0D0717D31F058B0A00AB78B4 /* Assets.xcassets in Resources */,
+				0D0717D11F058B0A00AB78B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D0717DA1F058B0A00AB78B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D0717E51F058B0A00AB78B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D0717BF1F058B0A00AB78B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D0717CB1F058B0A00AB78B4 /* AppDelegate.m in Sources */,
+				0D0717FB1F058B7600AB78B4 /* TableViewController.m in Sources */,
+				0D0717C81F058B0A00AB78B4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D0717D81F058B0A00AB78B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D0717E11F058B0A00AB78B4 /* IDC29_UITableView_Static_Cells_homeworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D0717E31F058B0A00AB78B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D0717EC1F058B0A00AB78B4 /* IDC29_UITableView_Static_Cells_homeworkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D0717DE1F058B0A00AB78B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D0717C21F058B0A00AB78B4 /* IDC29 UITableView Static Cells homework */;
+			targetProxy = 0D0717DD1F058B0A00AB78B4 /* PBXContainerItemProxy */;
+		};
+		0D0717E91F058B0A00AB78B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D0717C21F058B0A00AB78B4 /* IDC29 UITableView Static Cells homework */;
+			targetProxy = 0D0717E81F058B0A00AB78B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0D0717CF1F058B0A00AB78B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D0717D01F058B0A00AB78B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D0717D41F058B0A00AB78B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D0717D51F058B0A00AB78B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D0717EE1F058B0A00AB78B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0D0717EF1F058B0A00AB78B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D0717F11F058B0A00AB78B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "IDC29 UITableView Static Cells homework/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "manki.IDC29-UITableView-Static-Cells-homework";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0D0717F21F058B0A00AB78B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "IDC29 UITableView Static Cells homework/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "manki.IDC29-UITableView-Static-Cells-homework";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0D0717F41F058B0A00AB78B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "IDC29 UITableView Static Cells homeworkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "manki.IDC29-UITableView-Static-Cells-homeworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IDC29 UITableView Static Cells homework.app/IDC29 UITableView Static Cells homework";
+			};
+			name = Debug;
+		};
+		0D0717F51F058B0A00AB78B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "IDC29 UITableView Static Cells homeworkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "manki.IDC29-UITableView-Static-Cells-homeworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IDC29 UITableView Static Cells homework.app/IDC29 UITableView Static Cells homework";
+			};
+			name = Release;
+		};
+		0D0717F71F058B0A00AB78B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "IDC29 UITableView Static Cells homeworkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "manki.IDC29-UITableView-Static-Cells-homeworkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "IDC29 UITableView Static Cells homework";
+			};
+			name = Debug;
+		};
+		0D0717F81F058B0A00AB78B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "IDC29 UITableView Static Cells homeworkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "manki.IDC29-UITableView-Static-Cells-homeworkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "IDC29 UITableView Static Cells homework";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D0717BE1F058B0A00AB78B4 /* Build configuration list for PBXProject "IDC29 UITableView Static Cells homework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D0717EE1F058B0A00AB78B4 /* Debug */,
+				0D0717EF1F058B0A00AB78B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D0717F01F058B0A00AB78B4 /* Build configuration list for PBXNativeTarget "IDC29 UITableView Static Cells homework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D0717F11F058B0A00AB78B4 /* Debug */,
+				0D0717F21F058B0A00AB78B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0D0717F31F058B0A00AB78B4 /* Build configuration list for PBXNativeTarget "IDC29 UITableView Static Cells homeworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D0717F41F058B0A00AB78B4 /* Debug */,
+				0D0717F51F058B0A00AB78B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0D0717F61F058B0A00AB78B4 /* Build configuration list for PBXNativeTarget "IDC29 UITableView Static Cells homeworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D0717F71F058B0A00AB78B4 /* Debug */,
+				0D0717F81F058B0A00AB78B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D0717BB1F058B0A00AB78B4 /* Project object */;
+}

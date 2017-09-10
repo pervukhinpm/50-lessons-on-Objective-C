@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DFEA5701EFABC9800FA4291 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFEA56F1EFABC9800FA4291 /* main.m */; };
+		0DFEA5731EFABC9800FA4291 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFEA5721EFABC9800FA4291 /* AppDelegate.m */; };
+		0DFEA5761EFABC9800FA4291 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFEA5751EFABC9800FA4291 /* ViewController.m */; };
+		0DFEA5791EFABC9800FA4291 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DFEA5771EFABC9800FA4291 /* Main.storyboard */; };
+		0DFEA57B1EFABC9800FA4291 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DFEA57A1EFABC9800FA4291 /* Assets.xcassets */; };
+		0DFEA57E1EFABC9800FA4291 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DFEA57C1EFABC9800FA4291 /* LaunchScreen.storyboard */; };
+		0DFEA5891EFABC9800FA4291 /* IDC_23_gestures_homeworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFEA5881EFABC9800FA4291 /* IDC_23_gestures_homeworkTests.m */; };
+		0DFEA5941EFABC9800FA4291 /* IDC_23_gestures_homeworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFEA5931EFABC9800FA4291 /* IDC_23_gestures_homeworkUITests.m */; };
+		0DFEA5A21EFABCE900FA4291 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 0DFEA5A11EFABCE900FA4291 /* images */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DFEA5851EFABC9800FA4291 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DFEA5631EFABC9800FA4291 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DFEA56A1EFABC9800FA4291;
+			remoteInfo = "IDC 23 gestures homework";
+		};
+		0DFEA5901EFABC9800FA4291 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DFEA5631EFABC9800FA4291 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DFEA56A1EFABC9800FA4291;
+			remoteInfo = "IDC 23 gestures homework";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DFEA56B1EFABC9800FA4291 /* IDC 23 gestures homework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IDC 23 gestures homework.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DFEA56F1EFABC9800FA4291 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0DFEA5711EFABC9800FA4291 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0DFEA5721EFABC9800FA4291 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0DFEA5741EFABC9800FA4291 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0DFEA5751EFABC9800FA4291 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0DFEA5781EFABC9800FA4291 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0DFEA57A1EFABC9800FA4291 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DFEA57D1EFABC9800FA4291 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0DFEA57F1EFABC9800FA4291 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DFEA5841EFABC9800FA4291 /* IDC 23 gestures homeworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IDC 23 gestures homeworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DFEA5881EFABC9800FA4291 /* IDC_23_gestures_homeworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDC_23_gestures_homeworkTests.m; sourceTree = "<group>"; };
+		0DFEA58A1EFABC9800FA4291 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DFEA58F1EFABC9800FA4291 /* IDC 23 gestures homeworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IDC 23 gestures homeworkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DFEA5931EFABC9800FA4291 /* IDC_23_gestures_homeworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDC_23_gestures_homeworkUITests.m; sourceTree = "<group>"; };
+		0DFEA5951EFABC9800FA4291 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DFEA5A11EFABCE900FA4291 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DFEA5681EFABC9800FA4291 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DFEA5811EFABC9800FA4291 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DFEA58C1EFABC9800FA4291 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DFEA5621EFABC9800FA4291 = {
+			isa = PBXGroup;
+			children = (
+				0DFEA56D1EFABC9800FA4291 /* IDC 23 gestures homework */,
+				0DFEA5871EFABC9800FA4291 /* IDC 23 gestures homeworkTests */,
+				0DFEA5921EFABC9800FA4291 /* IDC 23 gestures homeworkUITests */,
+				0DFEA56C1EFABC9800FA4291 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DFEA56C1EFABC9800FA4291 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DFEA56B1EFABC9800FA4291 /* IDC 23 gestures homework.app */,
+				0DFEA5841EFABC9800FA4291 /* IDC 23 gestures homeworkTests.xctest */,
+				0DFEA58F1EFABC9800FA4291 /* IDC 23 gestures homeworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DFEA56D1EFABC9800FA4291 /* IDC 23 gestures homework */ = {
+			isa = PBXGroup;
+			children = (
+				0DFEA5711EFABC9800FA4291 /* AppDelegate.h */,
+				0DFEA5721EFABC9800FA4291 /* AppDelegate.m */,
+				0DFEA5741EFABC9800FA4291 /* ViewController.h */,
+				0DFEA5751EFABC9800FA4291 /* ViewController.m */,
+				0DFEA5771EFABC9800FA4291 /* Main.storyboard */,
+				0DFEA5A11EFABCE900FA4291 /* images */,
+				0DFEA57A1EFABC9800FA4291 /* Assets.xcassets */,
+				0DFEA57C1EFABC9800FA4291 /* LaunchScreen.storyboard */,
+				0DFEA57F1EFABC9800FA4291 /* Info.plist */,
+				0DFEA56E1EFABC9800FA4291 /* Supporting Files */,
+			);
+			path = "IDC 23 gestures homework";
+			sourceTree = "<group>";
+		};
+		0DFEA56E1EFABC9800FA4291 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0DFEA56F1EFABC9800FA4291 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0DFEA5871EFABC9800FA4291 /* IDC 23 gestures homeworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				0DFEA5881EFABC9800FA4291 /* IDC_23_gestures_homeworkTests.m */,
+				0DFEA58A1EFABC9800FA4291 /* Info.plist */,
+			);
+			path = "IDC 23 gestures homeworkTests";
+			sourceTree = "<group>";
+		};
+		0DFEA5921EFABC9800FA4291 /* IDC 23 gestures homeworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0DFEA5931EFABC9800FA4291 /* IDC_23_gestures_homeworkUITests.m */,
+				0DFEA5951EFABC9800FA4291 /* Info.plist */,
+			);
+			path = "IDC 23 gestures homeworkUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DFEA56A1EFABC9800FA4291 /* IDC 23 gestures homework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DFEA5981EFABC9800FA4291 /* Build configuration list for PBXNativeTarget "IDC 23 gestures homework" */;
+			buildPhases = (
+				0DFEA5671EFABC9800FA4291 /* Sources */,
+				0DFEA5681EFABC9800FA4291 /* Frameworks */,
+				0DFEA5691EFABC9800FA4291 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IDC 23 gestures homework";
+			productName = "IDC 23 gestures homework";
+			productReference = 0DFEA56B1EFABC9800FA4291 /* IDC 23 gestures homework.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0DFEA5831EFABC9800FA4291 /* IDC 23 gestures homeworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DFEA59B1EFABC9800FA4291 /* Build configuration list for PBXNativeTarget "IDC 23 gestures homeworkTests" */;
+			buildPhases = (
+				0DFEA5801EFABC9800FA4291 /* Sources */,
+				0DFEA5811EFABC9800FA4291 /* Frameworks */,
+				0DFEA5821EFABC9800FA4291 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DFEA5861EFABC9800FA4291 /* PBXTargetDependency */,
+			);
+			name = "IDC 23 gestures homeworkTests";
+			productName = "IDC 23 gestures homeworkTests";
+			productReference = 0DFEA5841EFABC9800FA4291 /* IDC 23 gestures homeworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0DFEA58E1EFABC9800FA4291 /* IDC 23 gestures homeworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DFEA59E1EFABC9800FA4291 /* Build configuration list for PBXNativeTarget "IDC 23 gestures homeworkUITests" */;
+			buildPhases = (
+				0DFEA58B1EFABC9800FA4291 /* Sources */,
+				0DFEA58C1EFABC9800FA4291 /* Frameworks */,
+				0DFEA58D1EFABC9800FA4291 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DFEA5911EFABC9800FA4291 /* PBXTargetDependency */,
+			);
+			name = "IDC 23 gestures homeworkUITests";
+			productName = "IDC 23 gestures homeworkUITests";
+			productReference = 0DFEA58F1EFABC9800FA4291 /* IDC 23 gestures homeworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DFEA5631EFABC9800FA4291 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Петр Первухин";
+				TargetAttributes = {
+					0DFEA56A1EFABC9800FA4291 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					0DFEA5831EFABC9800FA4291 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0DFEA56A1EFABC9800FA4291;
+					};
+					0DFEA58E1EFABC9800FA4291 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0DFEA56A1EFABC9800FA4291;
+					};
+				};
+			};
+			buildConfigurationList = 0DFEA5661EFABC9800FA4291 /* Build configuration list for PBXProject "IDC 23 gestures homework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0DFEA5621EFABC9800FA4291;
+			productRefGroup = 0DFEA56C1EFABC9800FA4291 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DFEA56A1EFABC9800FA4291 /* IDC 23 gestures homework */,
+				0DFEA5831EFABC9800FA4291 /* IDC 23 gestures homeworkTests */,
+				0DFEA58E1EFABC9800FA4291 /* IDC 23 gestures homeworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DFEA5691EFABC9800FA4291 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DFEA5A21EFABCE900FA4291 /* images in Resources */,
+				0DFEA57E1EFABC9800FA4291 /* LaunchScreen.storyboard in Resources */,
+				0DFEA57B1EFABC9800FA4291 /* Assets.xcassets in Resources */,
+				0DFEA5791EFABC9800FA4291 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DFEA5821EFABC9800FA4291 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DFEA58D1EFABC9800FA4291 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DFEA5671EFABC9800FA4291 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DFEA5761EFABC9800FA4291 /* ViewController.m in Sources */,
+				0DFEA5731EFABC9800FA4291 /* AppDelegate.m in Sources */,
+				0DFEA5701EFABC9800FA4291 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DFEA5801EFABC9800FA4291 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DFEA5891EFABC9800FA4291 /* IDC_23_gestures_homeworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DFEA58B1EFABC9800FA4291 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DFEA5941EFABC9800FA4291 /* IDC_23_gestures_homeworkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DFEA5861EFABC9800FA4291 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DFEA56A1EFABC9800FA4291 /* IDC 23 gestures homework */;
+			targetProxy = 0DFEA5851EFABC9800FA4291 /* PBXContainerItemProxy */;
+		};
+		0DFEA5911EFABC9800FA4291 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DFEA56A1EFABC9800FA4291 /* IDC 23 gestures homework */;
+			targetProxy = 0DFEA5901EFABC9800FA4291 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0DFEA5771EFABC9800FA4291 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DFEA5781EFABC9800FA4291 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0DFEA57C1EFABC9800FA4291 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DFEA57D1EFABC9800FA4291 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0DFEA5961EFABC9800FA4291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0DFEA5971EFABC9800FA4291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DFEA5991EFABC9800FA4291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "IDC 23 gestures homework/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "manki.IDC-23-gestures-homework";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0DFEA59A1EFABC9800FA4291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "IDC 23 gestures homework/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "manki.IDC-23-gestures-homework";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0DFEA59C1EFABC9800FA4291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "IDC 23 gestures homeworkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "manki.IDC-23-gestures-homeworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IDC 23 gestures homework.app/IDC 23 gestures homework";
+			};
+			name = Debug;
+		};
+		0DFEA59D1EFABC9800FA4291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "IDC 23 gestures homeworkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "manki.IDC-23-gestures-homeworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IDC 23 gestures homework.app/IDC 23 gestures homework";
+			};
+			name = Release;
+		};
+		0DFEA59F1EFABC9800FA4291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "IDC 23 gestures homeworkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "manki.IDC-23-gestures-homeworkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "IDC 23 gestures homework";
+			};
+			name = Debug;
+		};
+		0DFEA5A01EFABC9800FA4291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "IDC 23 gestures homeworkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "manki.IDC-23-gestures-homeworkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "IDC 23 gestures homework";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DFEA5661EFABC9800FA4291 /* Build configuration list for PBXProject "IDC 23 gestures homework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DFEA5961EFABC9800FA4291 /* Debug */,
+				0DFEA5971EFABC9800FA4291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DFEA5981EFABC9800FA4291 /* Build configuration list for PBXNativeTarget "IDC 23 gestures homework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DFEA5991EFABC9800FA4291 /* Debug */,
+				0DFEA59A1EFABC9800FA4291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0DFEA59B1EFABC9800FA4291 /* Build configuration list for PBXNativeTarget "IDC 23 gestures homeworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DFEA59C1EFABC9800FA4291 /* Debug */,
+				0DFEA59D1EFABC9800FA4291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0DFEA59E1EFABC9800FA4291 /* Build configuration list for PBXNativeTarget "IDC 23 gestures homeworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DFEA59F1EFABC9800FA4291 /* Debug */,
+				0DFEA5A01EFABC9800FA4291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DFEA5631EFABC9800FA4291 /* Project object */;
+}

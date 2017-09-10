@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11542" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="PMCourse" representedClassName="PMCourse" parentEntity="PMObject" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="studyBranch" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subject" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="students" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PMStudent" inverseName="learningCourses" inverseEntity="PMStudent" syncable="YES"/>
+        <relationship name="teachers" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PMStudent" inverseName="teachingCourses" inverseEntity="PMStudent" syncable="YES"/>
+    </entity>
+    <entity name="PMObject" representedClassName="PMObject" syncable="YES" codeGenerationType="class"/>
+    <entity name="PMStudent" representedClassName="PMStudent" parentEntity="PMObject" syncable="YES" codeGenerationType="class">
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="learningCourses" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PMCourse" inverseName="students" inverseEntity="PMCourse" syncable="YES"/>
+        <relationship name="teachingCourses" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PMCourse" inverseName="teachers" inverseEntity="PMCourse" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="PMCourse" positionX="187" positionY="-18" width="128" height="118"/>
+        <element name="PMObject" positionX="70" positionY="-108" width="128" height="43"/>
+        <element name="PMStudent" positionX="-63" positionY="-18" width="128" height="118"/>
+    </elements>
+</model>

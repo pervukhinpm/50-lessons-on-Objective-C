@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DAD1BD31ED061B9007D6E68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD1BD21ED061B9007D6E68 /* main.m */; };
+		0DAD1BD61ED061B9007D6E68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD1BD51ED061B9007D6E68 /* AppDelegate.m */; };
+		0DAD1BD91ED061B9007D6E68 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD1BD81ED061B9007D6E68 /* ViewController.m */; };
+		0DAD1BDC1ED061B9007D6E68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DAD1BDA1ED061B9007D6E68 /* Main.storyboard */; };
+		0DAD1BDE1ED061B9007D6E68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DAD1BDD1ED061B9007D6E68 /* Assets.xcassets */; };
+		0DAD1BE11ED061B9007D6E68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DAD1BDF1ED061B9007D6E68 /* LaunchScreen.storyboard */; };
+		0DAD1BEC1ED061B9007D6E68 /* delegati_peredelanoeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD1BEB1ED061B9007D6E68 /* delegati_peredelanoeTests.m */; };
+		0DAD1BF71ED061B9007D6E68 /* delegati_peredelanoeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD1BF61ED061B9007D6E68 /* delegati_peredelanoeUITests.m */; };
+		0DAD1C061ED0620F007D6E68 /* PMPatient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD1C051ED0620F007D6E68 /* PMPatient.m */; };
+		0DAD1C091ED0621B007D6E68 /* PMDoctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD1C081ED0621B007D6E68 /* PMDoctor.m */; };
+		0DAD1C0C1ED1EC39007D6E68 /* PMDoctorIdiot.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD1C0B1ED1EC39007D6E68 /* PMDoctorIdiot.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DAD1BE81ED061B9007D6E68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DAD1BC61ED061B9007D6E68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DAD1BCD1ED061B9007D6E68;
+			remoteInfo = "delegati peredelanoe";
+		};
+		0DAD1BF31ED061B9007D6E68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DAD1BC61ED061B9007D6E68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DAD1BCD1ED061B9007D6E68;
+			remoteInfo = "delegati peredelanoe";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DAD1BCE1ED061B9007D6E68 /* delegati peredelanoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "delegati peredelanoe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DAD1BD21ED061B9007D6E68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0DAD1BD41ED061B9007D6E68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0DAD1BD51ED061B9007D6E68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0DAD1BD71ED061B9007D6E68 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0DAD1BD81ED061B9007D6E68 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0DAD1BDB1ED061B9007D6E68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0DAD1BDD1ED061B9007D6E68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DAD1BE01ED061B9007D6E68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0DAD1BE21ED061B9007D6E68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DAD1BE71ED061B9007D6E68 /* delegati peredelanoeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "delegati peredelanoeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DAD1BEB1ED061B9007D6E68 /* delegati_peredelanoeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = delegati_peredelanoeTests.m; sourceTree = "<group>"; };
+		0DAD1BED1ED061B9007D6E68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DAD1BF21ED061B9007D6E68 /* delegati peredelanoeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "delegati peredelanoeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DAD1BF61ED061B9007D6E68 /* delegati_peredelanoeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = delegati_peredelanoeUITests.m; sourceTree = "<group>"; };
+		0DAD1BF81ED061B9007D6E68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DAD1C041ED0620F007D6E68 /* PMPatient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMPatient.h; sourceTree = "<group>"; };
+		0DAD1C051ED0620F007D6E68 /* PMPatient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMPatient.m; sourceTree = "<group>"; };
+		0DAD1C071ED0621B007D6E68 /* PMDoctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMDoctor.h; sourceTree = "<group>"; };
+		0DAD1C081ED0621B007D6E68 /* PMDoctor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMDoctor.m; sourceTree = "<group>"; };
+		0DAD1C0A1ED1EC39007D6E68 /* PMDoctorIdiot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMDoctorIdiot.h; sourceTree = "<group>"; };
+		0DAD1C0B1ED1EC39007D6E68 /* PMDoctorIdiot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMDoctorIdiot.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DAD1BCB1ED061B9007D6E68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DAD1BE41ED061B9007D6E68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DAD1BEF1ED061B9007D6E68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DAD1BC51ED061B9007D6E68 = {
+			isa = PBXGroup;
+			children = (
+				0DAD1BD01ED061B9007D6E68 /* delegati peredelanoe */,
+				0DAD1BEA1ED061B9007D6E68 /* delegati peredelanoeTests */,
+				0DAD1BF51ED061B9007D6E68 /* delegati peredelanoeUITests */,
+				0DAD1BCF1ED061B9007D6E68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DAD1BCF1ED061B9007D6E68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DAD1BCE1ED061B9007D6E68 /* delegati peredelanoe.app */,
+				0DAD1BE71ED061B9007D6E68 /* delegati peredelanoeTests.xctest */,
+				0DAD1BF21ED061B9007D6E68 /* delegati peredelanoeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DAD1BD01ED061B9007D6E68 /* delegati peredelanoe */ = {
+			isa = PBXGroup;
+			children = (
+				0DAD1BD41ED061B9007D6E68 /* AppDelegate.h */,
+				0DAD1BD51ED061B9007D6E68 /* AppDelegate.m */,
+				0DAD1C0A1ED1EC39007D6E68 /* PMDoctorIdiot.h */,
+				0DAD1C0B1ED1EC39007D6E68 /* PMDoctorIdiot.m */,
+				0DAD1C041ED0620F007D6E68 /* PMPatient.h */,
+				0DAD1C051ED0620F007D6E68 /* PMPatient.m */,
+				0DAD1C071ED0621B007D6E68 /* PMDoctor.h */,
+				0DAD1C081ED0621B007D6E68 /* PMDoctor.m */,
+				0DAD1BD71ED061B9007D6E68 /* ViewController.h */,
+				0DAD1BD81ED061B9007D6E68 /* ViewController.m */,
+				0DAD1BDA1ED061B9007D6E68 /* Main.storyboard */,
+				0DAD1BDD1ED061B9007D6E68 /* Assets.xcassets */,
+				0DAD1BDF1ED061B9007D6E68 /* LaunchScreen.storyboard */,
+				0DAD1BE21ED061B9007D6E68 /* Info.plist */,
+				0DAD1BD11ED061B9007D6E68 /* Supporting Files */,
+			);
+			path = "delegati peredelanoe";
+			sourceTree = "<group>";
+		};
+		0DAD1BD11ED061B9007D6E68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0DAD1BD21ED061B9007D6E68 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0DAD1BEA1ED061B9007D6E68 /* delegati peredelanoeTests */ = {
+			isa = PBXGroup;
+			children = (
+				0DAD1BEB1ED061B9007D6E68 /* delegati_peredelanoeTests.m */,
+				0DAD1BED1ED061B9007D6E68 /* Info.plist */,
+			);
+			path = "delegati peredelanoeTests";
+			sourceTree = "<group>";
+		};
+		0DAD1BF51ED061B9007D6E68 /* delegati peredelanoeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0DAD1BF61ED061B9007D6E68 /* delegati_peredelanoeUITests.m */,
+				0DAD1BF81ED061B9007D6E68 /* Info.plist */,
+			);
+			path = "delegati peredelanoeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DAD1BCD1ED061B9007D6E68 /* delegati peredelanoe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DAD1BFB1ED061B9007D6E68 /* Build configuration list for PBXNativeTarget "delegati peredelanoe" */;
+			buildPhases = (
+				0DAD1BCA1ED061B9007D6E68 /* Sources */,
+				0DAD1BCB1ED061B9007D6E68 /* Frameworks */,
+				0DAD1BCC1ED061B9007D6E68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "delegati peredelanoe";
+			productName = "delegati peredelanoe";
+			productReference = 0DAD1BCE1ED061B9007D6E68 /* delegati peredelanoe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0DAD1BE61ED061B9007D6E68 /* delegati peredelanoeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DAD1BFE1ED061B9007D6E68 /* Build configuration list for PBXNativeTarget "delegati peredelanoeTests" */;
+			buildPhases = (
+				0DAD1BE31ED061B9007D6E68 /* Sources */,
+				0DAD1BE41ED061B9007D6E68 /* Frameworks */,
+				0DAD1BE51ED061B9007D6E68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DAD1BE91ED061B9007D6E68 /* PBXTargetDependency */,
+			);
+			name = "delegati peredelanoeTests";
+			productName = "delegati peredelanoeTests";
+			productReference = 0DAD1BE71ED061B9007D6E68 /* delegati peredelanoeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0DAD1BF11ED061B9007D6E68 /* delegati peredelanoeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DAD1C011ED061B9007D6E68 /* Build configuration list for PBXNativeTarget "delegati peredelanoeUITests" */;
+			buildPhases = (
+				0DAD1BEE1ED061B9007D6E68 /* Sources */,
+				0DAD1BEF1ED061B9007D6E68 /* Frameworks */,
+				0DAD1BF01ED061B9007D6E68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DAD1BF41ED061B9007D6E68 /* PBXTargetDependency */,
+			);
+			name = "delegati peredelanoeUITests";
+			productName = "delegati peredelanoeUITests";
+			productReference = 0DAD1BF21ED061B9007D6E68 /* delegati peredelanoeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DAD1BC61ED061B9007D6E68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Петр Первухин";
+				TargetAttributes = {
+					0DAD1BCD1ED061B9007D6E68 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					0DAD1BE61ED061B9007D6E68 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0DAD1BCD1ED061B9007D6E68;
+					};
+					0DAD1BF11ED061B9007D6E68 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0DAD1BCD1ED061B9007D6E68;
+					};
+				};
+			};
+			buildConfigurationList = 0DAD1BC91ED061B9007D6E68 /* Build configuration list for PBXProject "delegati peredelanoe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0DAD1BC51ED061B9007D6E68;
+			productRefGroup = 0DAD1BCF1ED061B9007D6E68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DAD1BCD1ED061B9007D6E68 /* delegati peredelanoe */,
+				0DAD1BE61ED061B9007D6E68 /* delegati peredelanoeTests */,
+				0DAD1BF11ED061B9007D6E68 /* delegati peredelanoeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DAD1BCC1ED061B9007D6E68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DAD1BE11ED061B9007D6E68 /* LaunchScreen.storyboard in Resources */,
+				0DAD1BDE1ED061B9007D6E68 /* Assets.xcassets in Resources */,
+				0DAD1BDC1ED061B9007D6E68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DAD1BE51ED061B9007D6E68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DAD1BF01ED061B9007D6E68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DAD1BCA1ED061B9007D6E68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DAD1C061ED0620F007D6E68 /* PMPatient.m in Sources */,
+				0DAD1BD91ED061B9007D6E68 /* ViewController.m in Sources */,
+				0DAD1BD61ED061B9007D6E68 /* AppDelegate.m in Sources */,
+				0DAD1C091ED0621B007D6E68 /* PMDoctor.m in Sources */,
+				0DAD1BD31ED061B9007D6E68 /* main.m in Sources */,
+				0DAD1C0C1ED1EC39007D6E68 /* PMDoctorIdiot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DAD1BE31ED061B9007D6E68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DAD1BEC1ED061B9007D6E68 /* delegati_peredelanoeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DAD1BEE1ED061B9007D6E68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DAD1BF71ED061B9007D6E68 /* delegati_peredelanoeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DAD1BE91ED061B9007D6E68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DAD1BCD1ED061B9007D6E68 /* delegati peredelanoe */;
+			targetProxy = 0DAD1BE81ED061B9007D6E68 /* PBXContainerItemProxy */;
+		};
+		0DAD1BF41ED061B9007D6E68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DAD1BCD1ED061B9007D6E68 /* delegati peredelanoe */;
+			targetProxy = 0DAD1BF31ED061B9007D6E68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0DAD1BDA1ED061B9007D6E68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DAD1BDB1ED061B9007D6E68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0DAD1BDF1ED061B9007D6E68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DAD1BE01ED061B9007D6E68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0DAD1BF91ED061B9007D6E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0DAD1BFA1ED061B9007D6E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DAD1BFC1ED061B9007D6E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "delegati peredelanoe/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "manki.delegati-peredelanoe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0DAD1BFD1ED061B9007D6E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "delegati peredelanoe/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "manki.delegati-peredelanoe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0DAD1BFF1ED061B9007D6E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "delegati peredelanoeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "manki.delegati-peredelanoeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/delegati peredelanoe.app/delegati peredelanoe";
+			};
+			name = Debug;
+		};
+		0DAD1C001ED061B9007D6E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "delegati peredelanoeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "manki.delegati-peredelanoeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/delegati peredelanoe.app/delegati peredelanoe";
+			};
+			name = Release;
+		};
+		0DAD1C021ED061B9007D6E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "delegati peredelanoeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "manki.delegati-peredelanoeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "delegati peredelanoe";
+			};
+			name = Debug;
+		};
+		0DAD1C031ED061B9007D6E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "delegati peredelanoeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "manki.delegati-peredelanoeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "delegati peredelanoe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DAD1BC91ED061B9007D6E68 /* Build configuration list for PBXProject "delegati peredelanoe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DAD1BF91ED061B9007D6E68 /* Debug */,
+				0DAD1BFA1ED061B9007D6E68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DAD1BFB1ED061B9007D6E68 /* Build configuration list for PBXNativeTarget "delegati peredelanoe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DAD1BFC1ED061B9007D6E68 /* Debug */,
+				0DAD1BFD1ED061B9007D6E68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0DAD1BFE1ED061B9007D6E68 /* Build configuration list for PBXNativeTarget "delegati peredelanoeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DAD1BFF1ED061B9007D6E68 /* Debug */,
+				0DAD1C001ED061B9007D6E68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0DAD1C011ED061B9007D6E68 /* Build configuration list for PBXNativeTarget "delegati peredelanoeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DAD1C021ED061B9007D6E68 /* Debug */,
+				0DAD1C031ED061B9007D6E68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DAD1BC61ED061B9007D6E68 /* Project object */;
+}
